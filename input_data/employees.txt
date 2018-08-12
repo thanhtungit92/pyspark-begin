@@ -1,1 +1,1 @@
-id;name;email;birthday;salary;zipcodeab
+id;name;email;birthday;salary;zipcode
