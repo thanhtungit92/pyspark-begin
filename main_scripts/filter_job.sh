@@ -1,0 +1,1 @@
+spark-submit C:\spark\pyspark-begin\rdd\filter.py C:\spark\pyspark-begin\input_data\employees.txt
