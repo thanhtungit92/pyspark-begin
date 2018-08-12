@@ -1,2 +1,1 @@
 id;name;email;birthday;salary;zipcode
-1;hoang;hoangngo@gmail.com;1991;10000;95035
