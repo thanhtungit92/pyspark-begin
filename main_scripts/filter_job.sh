@@ -1,1 +1,1 @@
-spark-submit C:\spark\pyspark-begin\rdd\filter.py C:\spark\pyspark-begin\input_data\employees.txt
+spark-submit C:\spark\pyspark-begin\rdd\filter.py C:\spark\pyspark-begin\input_data\employees.txt C:\spark\pyspark-begin\output_data\[jobname]_[datetime]

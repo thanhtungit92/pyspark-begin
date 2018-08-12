@@ -1,4 +1,4 @@
-data_file = "D:\\working\\projects\\workspace\\pyspark-begin\\data_spark.csv"
+data_file = "C:\\spark\\pyspark-begin\\input_data\\employees.txt"
 
 rdd = sc.textFile(data_file)
 
