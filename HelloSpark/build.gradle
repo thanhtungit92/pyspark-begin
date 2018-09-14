@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hoangngo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile "org.scala-lang:scala-library:"+scalaVersion
+    compile "org.scala-lang:scala-reflect:"+scalaVersion
+    compile "org.scala-lang:scala-compiler:"+scalaVersion
+
+    compile 'org.apache.spark:spark-mllib_2.11:2.1.0'
+    compile 'org.apache.spark:spark-sql_2.11:2.1.0'
+    compile 'org.apache.spark:spark-streaming-flume-assembly_2.11:2.1.0'
+    compile 'org.apache.spark:spark-graphx_2.11:2.1.0'
+    compile 'org.apache.spark:spark-launcher_2.11:2.1.0'
+    compile 'org.apache.spark:spark-catalyst_2.11:2.1.0'
+    compile 'org.apache.spark:spark-streaming_2.11:2.1.0'
+    compile 'org.apache.spark:spark-core_2.11:2.1.0'
+}
